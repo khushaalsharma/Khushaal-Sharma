@@ -1,0 +1,72 @@
+.navbar{
+    background-color: black !important;
+
+}
+
+.navbar div div ul li a{
+    color: white;
+    margin-left: 10%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: white !important;
+
+}
+
+.logo-khushaal{
+    height: 10%;
+    width: 20%;
+    padding-left: 5%;
+}
+
+.logo-khushaal img{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    font-family: monospace;
+    padding-top: 3%;
+    background-color: #070F2B;
+    color: aliceblue;
+}
+
+.footer-khushaal{
+    font-size: larger;
+}
+
+.footer-data{
+    cursor: pointer;
+}
+
+.mainpage{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.profile-photo{
+    height: 80%;
+    width: 100%;
+}
+
+.profile-photo, img{
+    height: 100%;
+    width: 100%;
+}
+
+.mainpage-text{
+    margin: 10% 0 8%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainpage-text h1{
+    font-size:5cqmax;
+    color: red;
+}
+
+.myDesc{
+    text-align: left;
+    margin-left: 22%;
+}
