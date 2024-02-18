@@ -11,10 +11,6 @@ const Footer = () => {
         window.location.href = "/projects";
     }
 
-    const skillsClick = () => {
-        window.location.href ="/skills";
-    }
-    
     const aboutClick = () => {
         window.location.href = "/about";
     }
@@ -37,17 +33,22 @@ const Footer = () => {
     return (
         <footer>
             <div className='row'>
-                <div className='col-md-2'></div>
+                <div className='col-md-1'></div>
                 <div className='col-md-9'>
                     <div className='row'>
-                        <div className='col-md-6 footer-data'>
+                        <div className='col-md-6 footerMain'>
                             <div className='footer-khushaal' onClick={ksClick}>Khushaal Sharma</div>
+                            <div>
+                                <p>Thanks a lot visiting here. Hope to stay in touch</p>
+                                <p>📍Greater Noida, India</p>
+                            </div>
+                        </div>
+                        <div className='col-md-3 footer-data'>
                             <div onClick={aboutClick}>About</div>
                             <div onClick={projectClick}>Projects</div>
-                            <div onClick={skillsClick}>Skills</div>
                             <div onClick={contactClick}>Contact</div>
                         </div>
-                        <div className='col-md-6'>
+                        <div className='col-md-3'>
                             Social Media:
                             <div>
                                 <div onClick={handleLinkedin}>
@@ -67,7 +68,7 @@ const Footer = () => {
             </div>
             <div className='row'>
                 <p>Made with ❤️</p>
-                <p>©️ Khushaal Sharma 2020</p>
+                <p>©️ Khushaal Sharma 2024</p>
             </div>
         </footer>
     )

@@ -8,10 +8,6 @@ const Navbar = () => {
     const projectClick = () => {
         window.location.href = "/projects";
     }
-
-    const skillsClick = () => {
-        window.location.href ="/skills";
-    }
     
     const aboutClick = () => {
         window.location.href = "/about";
@@ -21,12 +17,16 @@ const Navbar = () => {
         window.location.href = "/contact";
     }
 
+    const ksClick = () =>{
+        window.location.href = "/";
+    }
+
 
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <div className='logo-khushaal'>
+                <a class="navbar-brand">
+                    <div className='logo-khushaal' onClick={ksClick}>
                         <img src={logo}/>
                     </div>
                 </a>
@@ -40,9 +40,6 @@ const Navbar = () => {
                         </li>
                         <li class="nav-item" onClick={projectClick}>
                             <a class="nav-link" aria-current="page">Projects</a>
-                        </li>
-                        <li className='nav-item' onClick={skillsClick}>
-                            <a className='nav-link' aria-current="page">Skills</a>
                         </li>
                         <li className='nav-item' onClick={contactClick}>
                             <a className='nav-link' aria-current="page">Contact</a>

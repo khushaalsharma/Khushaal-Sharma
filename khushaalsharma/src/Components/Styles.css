@@ -29,31 +29,29 @@ a:hover{
 footer{
     font-family: monospace;
     padding-top: 3%;
-    background-color: #070F2B;
+    background-color: #191919;
     color: aliceblue;
 }
 
 .footer-khushaal{
     font-size: larger;
+    cursor: pointer;
 }
 
 .footer-data{
     cursor: pointer;
 }
 
+.footerMain{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
 .mainpage{
     text-align: center;
-    margin-top: 2%;
-}
-
-.profile-photo{
-    height: 80%;
-    width: 100%;
-}
-
-.profile-photo, img{
-    height: 100%;
-    width: 100%;
+    padding: 3% 0 2%;
+    background-color: #000;
+    color: white;
 }
 
 .mainpage-text{
@@ -63,10 +61,108 @@ footer{
 
 .mainpage-text h1{
     font-size:5cqmax;
-    color: red;
+    color:goldenrod;
 }
 
 .myDesc{
     text-align: left;
     margin-left: 22%;
+}
+
+
+
+/* Typewriter.css */
+.typewriter {
+    overflow: hidden;
+    /* Ensures the text stays within the container */
+}
+
+.typewriter span {
+    display: inline-block;
+    /* Makes the text appear inline */
+}
+
+.cursor {
+    display: inline-block;
+    vertical-align: middle;
+    animation: blink-caret 0.75s step-end infinite;
+    /* Cursor blinking animation */
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+        /* Hides the cursor */
+    }
+
+    50% {
+        border-color: #000;
+        /* Shows the cursor */
+    }
+}
+
+.projects{
+    padding: 5% 0  3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.projects h1{
+    font-size: 8vmin;
+    padding: 2%;
+    text-align: left;
+}
+
+.projectCard{
+    margin-bottom: 2%;
+}
+
+.projectCard div{
+    height: 100%;
+}
+
+.aboutpage{
+    padding: 5% 0 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.aboutpage button{
+    margin-right: 2%;
+}
+
+.aboutpage .subhead{
+    text-align: center;
+}
+
+.contactPage{
+    padding: 5% 0 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.insta-btn{
+    background: linear-gradient(20deg, #feda75 , #fa7e1e , #d62976 , #962fbf, #4f5bd5); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 1% 0 1%;
+}
+
+.insta-btn:hover{
+    color: #333;
+}
+
+.mail{
+    margin-bottom: 2%;
+}
+
+.social{
+    margin: 1% 0 0 0 ;
+}
+
+.resumeDownload{
+    margin: 2%;
 }

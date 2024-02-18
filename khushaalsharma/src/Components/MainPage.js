@@ -1,17 +1,18 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import khushaal from "../Images/khushaal.png";
 import "./Styles.css";
+import Typewriter from './TypeWriter';
 
 const MainPage = () => {
+  
   return (
     <>
         <Navbar/>
         <div className='row mainpage'>
             <div className='col-md-2'></div>
             <div className='col-md-8 mainpage-text'>
-                <h1>Hi I am Khushaal</h1>
+                <h1><Typewriter text="Hi I am Khushaal" typingSpeed={100}/></h1>
                 <div className='myDesc'>
                     <h4>A Programmer</h4>
                     <h4>A College Student</h4>
