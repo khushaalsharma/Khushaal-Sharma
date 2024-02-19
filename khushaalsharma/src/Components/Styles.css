@@ -60,7 +60,7 @@ footer{
 }
 
 .mainpage-text h1{
-    font-size:5cqmax;
+    font-size:400%;
     color:goldenrod;
 }
 
@@ -69,6 +69,9 @@ footer{
     margin-left: 22%;
 }
 
+.infoText{
+    font-size: large;
+}
 
 
 /* Typewriter.css */
@@ -116,10 +119,16 @@ footer{
 
 .projectCard{
     margin-bottom: 2%;
+    padding: 0 3% 0;
 }
 
-.projectCard div{
-    height: 100%;
+.row .projectCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4{
+    flex-grow: 1;
 }
 
 .aboutpage{

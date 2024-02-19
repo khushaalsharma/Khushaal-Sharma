@@ -17,7 +17,7 @@ const ProjectComp = ({data}) => {
   }
 
   return(
-    <div className='project'>
+    <div className='card project'>
       <div className='projectImg' onClick={handleProject}>
         <img src={project} alt='project.jpg'/>
       </div>
