@@ -16,12 +16,12 @@ const AboutPage = () => {
         <Navbar/>
         <div className='row aboutpage'>
             <div className='col-md-2'></div>
-            <div className='col-md-8'>
+            <div className='col-md-8 aboutsection'>
                 <h1 className='subhead'>About Me</h1>
                 <div>
                     <h4>In a nutshell</h4>
                     <p>
-                        Hi there! I am Khushaal, a programmer, college student, content craetor and entrepreneurship enthusiast. I am trying to build a small product for the legal industry of India which I believe can bridge the gap between the legal community and common people. I also run an instagram page of mine where I am posting about my coding journey.
+                        Hi there! I am Khushaal, a programmer, college student, content creator and entrepreneurship enthusiast. I am trying to build a small product for the legal industry of India which I believe can bridge the gap between the legal community and common people. I also run an instagram page of mine where I am posting about my coding journey.
                     </p>
                 </div>
                 <div>

@@ -145,6 +145,11 @@ footer{
     text-align: center;
 }
 
+.aboutsection{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
 .contactPage{
     padding: 5% 0 3%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
