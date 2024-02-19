@@ -22,7 +22,6 @@ const Typewriter = ({ text, typingSpeed }) => {
   return (
     <div className="typewriter">
       <span>{displayText}</span>
-      <span className="cursor">|</span>
     </div>
   );
 };
