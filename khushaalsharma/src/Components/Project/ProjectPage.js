@@ -11,7 +11,7 @@ const ProjectPage = () => {
       name: "COBROZ",
       techStack: "MERN, Bootstrap CSS",
       desc: "A discussion platform inspired as a combination of LinkedIn and Twitter's web application",
-      github: "https://github.com/The-Cobroz/Cobroz-v1",
+      github: "https://github.com/The-Cobroz/Cobroz-prototype",
       deploy: ""
     },
     {
