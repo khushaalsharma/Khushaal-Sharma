@@ -20,10 +20,8 @@ const ContactPage = () => {
                     </div>
                     <div>
                         <h4>My Social Media Links</h4>
-                        <h6>Don't forget to follow me on Instagram. I am posting daily about my coding journey.</h6>
-                        <a href='https://www.instagram.com/khushaal.builds'><button className='btn insta-btn'>Instagram</button></a>
+                        <a href='https://www.instagram.com/_khushaalsharma_'><button className='btn insta-btn'>Instagram</button></a>
 
-                        <h6>Other Links</h6>
                         <div className='social'>
                             <a href='https://www.linkedin.com/in/khushaal-sharma/'><button className='btn btn-primary'>LinkedIn</button></a>
                         </div>
