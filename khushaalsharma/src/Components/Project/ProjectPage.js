@@ -46,8 +46,8 @@ const ProjectPage = () => {
       name: "EXPLODING CAT",
       techStack: "ReactJS",
       desc: "A project which allows you to play - exploding cat game. Try your luck.",
-      "github": "https://github.com/khushaalsharma/Exploding-Cat",
-      deploy: ""
+      github: "https://github.com/khushaalsharma/Exploding-Cat",
+      deploy: "https://exploding-cat.vercel.app/"
     },
   ]
 
