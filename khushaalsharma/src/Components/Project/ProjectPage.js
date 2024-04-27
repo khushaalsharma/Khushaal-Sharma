@@ -36,12 +36,19 @@ const ProjectPage = () => {
       deploy: "https://dice-game-theta-drab.vercel.app/"
     },
     {
-      name: "TINDOG",
-      techStack: "HTML, Bootstrap CSS",
-      desc: "A simple webpage which uses the Boostrap CSS for responsive and likeable design. Concept is inspired from Tinder",
-      github: "https://github.com/khushaalsharma/TinDog",
+      name: "FRAUD DETECTOR",
+      techStack: "Python, Numpy, Pandas, Scikit-Learn, Seaborn",
+      desc: "A supervised learning based classification learning model with an accuracy of 99.96% which can detect fraud credit card transactions",
+      github: "https://github.com/khushaalsharma/credit-card-fraud-detection",
       deploy: ""
-    }
+    },
+    {
+      name: "EXPLODING CAT",
+      techStack: "ReactJS",
+      desc: "A project which allows you to play - exploding cat game. Try your luck.",
+      "github": "https://github.com/khushaalsharma/Exploding-Cat",
+      deploy: ""
+    },
   ]
 
   return (
@@ -52,26 +59,6 @@ const ProjectPage = () => {
         <div className='col-md-10 projects'>
           <h1>Projects</h1>
           <div className='row'>
-            {/* <div className='col-md-4'>
-              <ProjectComp data={projects[0]}/>
-            </div>
-            <div className='col-md-4'>
-              <ProjectComp data={projects[1]}/>
-            </div>
-            <div className='col-md-4'>
-              <ProjectComp data={projects[2]}/>
-            </div>
-          </div>
-          <div className='row projectCard'>
-            <div className='col-md-1'></div>
-            <div className='col-md-4'>
-              <ProjectComp data={projects[3]}/>
-            </div>
-            <div className='col-md-2'></div>
-            <div className='col-md-4'>
-              <ProjectComp data={projects[4]}/>
-            </div>
-            <div className='col-md-1'></div> */}
             {
               projects.map((project, index) => (
                 <div className='col-md-4 projectCard' key={index}>

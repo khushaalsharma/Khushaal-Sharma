@@ -16,14 +16,11 @@ const ContactPage = () => {
                     </div>
                     <div className='resumeDownload'>
                         <h4>See my Resume here</h4>
-                        <a href='https://drive.google.com/file/d/12xj-gtm-WxGKfAH_oXGU88KeBrMjMwhm/view?usp=sharing'><button className='btn btn-success'>My Resume</button></a>
+                        <a href='https://drive.google.com/file/d/1fAWV6lNeAR6a_aL6OiyWQzYOKTJSqob0/view?usp=sharing'><button className='btn btn-success'>My Resume</button></a>
                     </div>
                     <div>
                         <h4>My Social Media Links</h4>
-                        <h6>Don't forget to follow me on Instagram. I am posting daily about my coding journey.</h6>
-                        <a href='https://www.instagram.com/khushaal.builds'><button className='btn insta-btn'>Instagram</button></a>
-
-                        <h6>Other Links</h6>
+                        <a href='https://www.instagram.com/_khushaalsharma_'><button className='btn insta-btn'>Instagram</button></a>
                         <div className='social'>
                             <a href='https://www.linkedin.com/in/khushaal-sharma/'><button className='btn btn-primary'>LinkedIn</button></a>
                         </div>

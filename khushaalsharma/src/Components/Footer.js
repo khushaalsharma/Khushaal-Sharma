@@ -24,7 +24,7 @@ const Footer = () => {
     }
 
     const handleInsta = () =>{
-        window.location.href = "https://www.instagram.com/khushaal.builds/";
+        window.location.href = "https://www.instagram.com/_khushaalsharma_/";
     }
 
     const handleX = () => {

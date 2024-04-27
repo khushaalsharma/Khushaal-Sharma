@@ -180,3 +180,16 @@ footer{
 .resumeDownload{
     margin: 2%;
 }
+
+.skill-icons i{
+    font-size: 300%;
+}
+
+.linkToOther{
+    color: blue;
+    cursor: pointer;
+}
+
+.linkToOther :hover{
+    color: darkblue !important;
+}
