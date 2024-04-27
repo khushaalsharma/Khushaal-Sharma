@@ -16,7 +16,7 @@ const MainPage = () => {
                 <div className='myDesc'>
                     <h4 className='infoText'>A Programmer</h4>
                     <h4 className='infoText'>A College Student</h4>
-                    <h4 className='infoText'>An Entrepreneurship Enthusiast</h4>
+                    <h4 className='infoText'>A CS Undergrad</h4>
                 </div>
             </div>
             <div className='col-md-2'></div>
