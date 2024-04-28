@@ -65,6 +65,10 @@ const AboutPage = () => {
                     
                         <i class="devicon-jupyter-plain colored"></i>
                     
+                        <i class="devicon-vscode-plain colored"></i>
+
+                    </div>
+                    <div className='skill-icons'>
                         <i class="devicon-react-original colored"></i>
                     
                         <i class="devicon-nodejs-plain-wordmark colored"></i>
@@ -78,13 +82,10 @@ const AboutPage = () => {
                         <i class="devicon-mysql-plain-wordmark colored"></i>
         
                         <i class="devicon-mongodb-plain colored"></i>
-                    
+
                         <i class="devicon-git-plain colored"></i>
                     
                         <i class="devicon-github-original colored"></i>
-                    
-                        <i class="devicon-vscode-plain colored"></i>
-
                     </div>
                     <br/>
                 </div>

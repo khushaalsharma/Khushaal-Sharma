@@ -211,4 +211,8 @@ footer{
     .projectCard{
         padding: 10px 20px;
     }
+
+    .skill-icons i{
+        font-size: 200%;
+    }
 }
