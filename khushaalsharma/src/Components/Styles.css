@@ -5,7 +5,6 @@
 
 .navbar div div ul li a{
     color: white;
-    margin-left: 10%;
     font-size: larger;
     font-weight: bolder;
 }
@@ -18,7 +17,6 @@ a:hover{
 .logo-khushaal{
     height: 10%;
     width: 20%;
-    padding-left: 5%;
 }
 
 .logo-khushaal img{
@@ -192,4 +190,25 @@ footer{
 
 .linkToOther :hover{
     color: darkblue !important;
+}
+
+@media screen and (max-width: 768px){
+
+    .navbar-brand{
+        width: 20%;
+        height: 40%;
+    }
+
+    .logo-khushaal{
+        width: 100%;
+        height: 100%;
+    }
+
+    .mainpage{
+        padding: 15% 0 30%;
+    }
+
+    .projectCard{
+        padding: 10px 20px;
+    }
 }
