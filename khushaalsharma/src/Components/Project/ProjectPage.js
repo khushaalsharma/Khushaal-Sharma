@@ -11,8 +11,8 @@ const ProjectPage = () => {
       name: "COBROZ",
       techStack: "MERN, Bootstrap CSS",
       desc: "A discussion platform inspired as a combination of LinkedIn and Twitter's web application",
-      github: "https://github.com/khushaalsharma/Cobroz-prototype",
-      deploy: ""
+      github: "https://github.com/The-Cobroz/cobroz-website-webapp",
+      deploy: "https://github.com/The-Cobroz/cobroz-website-webapp"
     },
     {
       name: "WEATHER APP",
@@ -49,6 +49,13 @@ const ProjectPage = () => {
       github: "https://github.com/khushaalsharma/Exploding-Cat",
       deploy: "https://exploding-cat.vercel.app/"
     },
+    {
+      name: "DOG BREED CLASSIFIER",
+      techStack: "TensorFlow, Keras, Transfer Learning, Deep Learning, Mobile Net V2",
+      desc: "A Transfer Learning based classification model made using Mobile Net V2 model. This model is trained to classify the dog image according to its breed. Its accuarcy level is currently low.",
+      github: "https://colab.research.google.com/drive/1SEJAPPiNUjhw2q_enMQEESNQ8PXn03Di",
+      deploy: "https://colab.research.google.com/drive/1SEJAPPiNUjhw2q_enMQEESNQ8PXn03Di"
+    }
   ]
 
   return (
