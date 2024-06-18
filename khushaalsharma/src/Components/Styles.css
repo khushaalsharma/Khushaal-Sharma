@@ -104,7 +104,7 @@ footer{
     }
 }
 
-.projects{
+/* .projects{
     padding: 5% 0  3%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -118,16 +118,7 @@ footer{
 .projectCard{
     margin-bottom: 2%;
     padding: 0 3% 0;
-}
-
-.row .projectCard{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-md-4{
-    flex-grow: 1;
-}
+} */
 
 .aboutpage{
     padding: 5% 0 3%;
@@ -208,9 +199,9 @@ footer{
         padding: 15% 0 30%;
     }
 
-    .projectCard{
+    /* .projectCard{
         padding: 10px 20px;
-    }
+    } */
 
     .skill-icons i{
         font-size: 200%;

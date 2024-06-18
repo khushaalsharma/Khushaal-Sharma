@@ -1,4 +1,5 @@
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.css";
 import "./Styles.css";
 import project from "../../Images/HiRes-17.jpg";
 
@@ -17,21 +18,17 @@ const ProjectComp = ({data}) => {
   }
 
   return(
-    <div className='card project'>
-      <div className='projectImg' onClick={handleProject}>
+    <div className='row'>
+      <div className='col-sm-3 projectImg'>
         <img src={project} alt='project.jpg'/>
       </div>
-      <div>
-        <div>
-          <h4 className='projectTitle'>{data[0]}</h4>
-        </div>
+      <div className='col-sm-9 projectData'>
+        <h4 className='projectTitle'>{data[0]}</h4>
         <div className='projectDetails'>
           <p>Tech Stack: {data[1]}</p>
-          <p>
-            <strong>Description:</strong> {data[2]}
-          </p>
+          <p>Description: {data[2]}</p>
           <p className='githubLink' onClick={handleGithub}>
-            GitHub Link
+            Github Link
           </p>
         </div>
       </div>

@@ -3,11 +3,7 @@
     border-radius: 20px;
     background-color: #61677A;
     color: white;
-    height: 100%;
-}
-
-.project:hover{
-    animation: zoom 1s ease-in-out forwards;
+    margin: 20px;
 }
 
 @keyframes zoom{
@@ -19,15 +15,9 @@
     }
 }
 
-.projectImg{
-    cursor: pointer;
-    height: 80%;
-    width: 80%;
-}
-
-.projectImg, img{
-    width: 100%;
+.projectImg img{
     height: 100%;
+    width: 100%;
     border-radius: 18px;
 }
 
@@ -45,4 +35,9 @@
 .githubLink:hover{
     color: blue;
     animation: zoom 1s ease-in-out forwards;
+}
+
+.projectData{
+    text-align: left;
+    padding-left: 20px;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import ProjectComp from './ProjectComp';
+import "bootstrap/dist/css/bootstrap.css";
 import "../Styles.css";
 
 const ProjectPage = () => {
@@ -61,14 +62,14 @@ const ProjectPage = () => {
   return (
     <>
       <Navbar/>
-      <div className="row projectCard">
+      <div className='row'>
         <div className='col-md-1'></div>
-        <div className='col-md-10 projects'>
+        <div className='col-md-10'>
           <h1>Projects</h1>
-          <div className='row'>
+          <div>
             {
               projects.map((project, index) => (
-                <div className='col-md-4 projectCard' key={index}>
+                <div className='project' key={index}>
                   <ProjectComp data={[project.name, project.techStack, project.desc, project.github, project.deploy]}/>
                 </div>
               ))
