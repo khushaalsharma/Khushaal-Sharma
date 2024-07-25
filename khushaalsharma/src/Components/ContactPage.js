@@ -16,7 +16,7 @@ const ContactPage = () => {
                     </div>
                     <div className='resumeDownload'>
                         <h4>See my Resume here</h4>
-                        <a href='https://drive.google.com/file/d/1xQlxsd80PkOHXfnFLiyZ63i_yTXQ5HCk/view?usp=sharing'><button className='btn btn-success'>My Resume</button></a>
+                        <a href='https://drive.google.com/file/d/1egaI6PaYFUe7EzG7E8iPqb81E3ymlImO/view?usp=sharing'><button className='btn btn-success'>My Resume</button></a>
                     </div>
                     <div>
                         <h4>My Social Media Links</h4>
