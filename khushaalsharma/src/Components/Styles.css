@@ -3,15 +3,16 @@
 
 }
 
-.navbar div div ul li a{
-    color: white;
-    font-size: larger;
-    font-weight: bolder;
+.githubBtn{
+    width: 6%;
+    height: 2%;
+    /* margin-left: 80%; */
 }
 
-a:hover{
-    color: white !important;
-
+.githubBtn img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
 }
 
 .logo-khushaal{
@@ -22,6 +23,59 @@ a:hover{
 .logo-khushaal img{
     height: 100%;
     width: 100%;
+}
+
+#about{
+    margin: 3%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#about marquee{
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+marquee h6{
+    display: inline;
+    margin: 10px;
+    font-size: xx-large;
+}
+
+#about .meText{
+    padding: 20px;
+    text-align: left;
+}
+
+.meText button{
+    margin: 10px;
+}
+
+#projects{
+    margin: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+.projects{
+    cursor: pointer;
+}
+
+#projects h1{
+    color: #feda75;
+}
+
+.projectView{
+    border-radius: 20px;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+.contactBtn button{
+    margin: 10%;
 }
 
 footer{
@@ -185,6 +239,18 @@ footer{
 
 @media screen and (max-width: 768px){
 
+    .aboutpage{
+        padding: 10px;
+    }
+
+    #about{
+        margin: 50% 10px;
+    }
+
+    #projects{
+        margin: 50px;
+    }
+
     .navbar-brand{
         width: 20%;
         height: 40%;
@@ -195,6 +261,11 @@ footer{
         height: 100%;
     }
 
+    .githubBtn{
+        width: 20%;
+        height: 50%;
+    }
+    
     .mainpage{
         padding: 15% 0 30%;
     }
@@ -205,5 +276,15 @@ footer{
 
     .skill-icons i{
         font-size: 200%;
+    }
+
+    .projectView{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 10px;
+    }
+
+    footer{
+        padding: 10px;
     }
 }

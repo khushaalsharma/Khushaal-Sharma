@@ -30,7 +30,7 @@ const AboutPage = () => {
                         I wrote my first ever line of code back in 2019 using python and have been coding since. At that time I created my first ever solo project as well - a quiz game using python and MySQL.
                     </p>
                     <p>
-                        Since then I have been learning various technologies and programming languages. I have learnt - C, C++, Java, JavaScript, php, etc. I have solved more than 150 questions based on data structures & algorithms on platform like <em className='linkToOther' onClick={() => {window.location.href = "https://www.geeksforgeeks.org/user/khushaalsharma1/"}}>GeeksForGeeks</em> and <em className='linkToOther' onClick={() => {window.location.href = "https://leetcode.com/u/_khushaalsharma_/"}}>LeetCode</em> (Click to view my profile).
+                        Since then I have been learning various technologies and programming languages. I have learnt - C, C++, Java, JavaScript, php, etc. I have solved more than 250 questions based on data structures & algorithms on platform like <em className='linkToOther' onClick={() => {window.location.href = "https://www.geeksforgeeks.org/user/khushaalsharma1/"}}>GeeksForGeeks</em> and <em className='linkToOther' onClick={() => {window.location.href = "https://leetcode.com/u/_khushaalsharma_/"}}>LeetCode</em> (Click to view my profile).
                     </p>
                     <p>
                         I have been creating personal web development projects since more than an year using the MERN stack. For database I have used MongoDB and MySQL. See my projects at my GitHub.

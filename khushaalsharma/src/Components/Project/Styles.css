@@ -34,7 +34,6 @@
 
 .githubLink:hover{
     color: blue;
-    animation: zoom 1s ease-in-out forwards;
 }
 
 .projectData{

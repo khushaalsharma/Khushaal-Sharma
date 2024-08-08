@@ -56,6 +56,13 @@ const ProjectPage = () => {
       desc: "A Transfer Learning based classification model made using Mobile Net V2 model. This model is trained to classify the dog image according to its breed. Its accuarcy level is currently low.",
       github: "https://colab.research.google.com/drive/1SEJAPPiNUjhw2q_enMQEESNQ8PXn03Di",
       deploy: "https://colab.research.google.com/drive/1SEJAPPiNUjhw2q_enMQEESNQ8PXn03Di"
+    },
+    {
+      name: "FILE COMPRESSOR",
+      techStack: "C++",
+      desc: "A text file compression and decompression tool based on Huffman Coding Algorithm. It can reduce the size by almost 47%.",
+      github: "https://github.com/khushaalsharma/File-Compressor",
+      deploy: "https://github.com/khushaalsharma/File-Compressor"
     }
   ]
 
