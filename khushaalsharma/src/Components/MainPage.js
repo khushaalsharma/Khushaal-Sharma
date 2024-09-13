@@ -110,7 +110,7 @@ const MainPage = () => {
                     <h6>JAVA</h6>
                   </marquee>     
                   <button className='btn btn-light' onClick={() =>  window.location.href = "/about"}>Know More</button>
-                  <button className='btn btn-outline-light' onClick={() => {window.location.href = "https://drive.google.com/file/d/1egaI6PaYFUe7EzG7E8iPqb81E3ymlImO/view?usp=drive_link"}}>View CV</button>
+                  <button className='btn btn-outline-light' onClick={() => {window.location.href = "https://drive.google.com/file/d/1ttSRX0y2Ff9O7CmpcMKNxSZq1l2v-ipA/view?usp=drive_link"}}>View CV</button>
                 </div>
                 <div className='col-sm-2'></div>
               </div>
